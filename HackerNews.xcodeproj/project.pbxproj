@@ -115,6 +115,10 @@
 			children = (
 				4DAB46AE1932FD6D006DC26D /* HNAppDelegate.h */,
 				4DAB46AF1932FD6D006DC26D /* HNAppDelegate.m */,
+				4DAB46D71933001D006DC26D /* App */,
+				4DAB46DF19330079006DC26D /* API */,
+				4DAB46E019330084006DC26D /* Networking */,
+				4DAB46E11933009A006DC26D /* Utilities */,
 				4DAB46A61932FD6D006DC26D /* Supporting Files */,
 			);
 			path = HackerNews;
@@ -148,6 +152,90 @@
 				4DAB46CA1932FD6E006DC26D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DAB46D71933001D006DC26D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4DAB46D819330025006DC26D /* Core View Controllers */,
+				4DAB46D91933002F006DC26D /* Secondary View Controllers */,
+				4DAB46DA19330042006DC26D /* Views */,
+				4DAB46DB1933004E006DC26D /* View Model */,
+				4DAB46DC19330052006DC26D /* Models */,
+				4DAB46DD19330056006DC26D /* Model Controllers */,
+				4DAB46DE1933005C006DC26D /* Cells */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		4DAB46D819330025006DC26D /* Core View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Core View Controllers";
+			sourceTree = "<group>";
+		};
+		4DAB46D91933002F006DC26D /* Secondary View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Secondary View Controllers";
+			sourceTree = "<group>";
+		};
+		4DAB46DA19330042006DC26D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4DAB46DB1933004E006DC26D /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		4DAB46DC19330052006DC26D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4DAB46DD19330056006DC26D /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		4DAB46DE1933005C006DC26D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		4DAB46DF19330079006DC26D /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		4DAB46E019330084006DC26D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		4DAB46E11933009A006DC26D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

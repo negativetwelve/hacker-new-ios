@@ -30,4 +30,15 @@
   return [[HNLoginViewController alloc] init];
 }
 
+- (void)showInitialViewController:(HNViewController *)initialViewController {
+  [self addChildViewController:initialViewController];
+  [self.view addSubview:initialViewController.view];
+  [initialViewController.view constrainToFillContainer];
+  self.currentViewController = initialViewController;
+}
+
+#pragma mark - API
+
+- (
+
 @end

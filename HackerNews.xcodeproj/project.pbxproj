@@ -25,6 +25,7 @@
 		4DAB46F0193304FA006DC26D /* HNConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB46EF193304FA006DC26D /* HNConfig.m */; };
 		4DAB46F4193306C1006DC26D /* HNLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB46F3193306C1006DC26D /* HNLogging.m */; };
 		4DAB46F7193308A8006DC26D /* HNLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB46F6193308A8006DC26D /* HNLoginViewController.m */; };
+		4DAB46FA193309CB006DC26D /* HNServerAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB46F9193309CB006DC26D /* HNServerAPIClient.m */; };
 		DDD6F9F127D14A9784B5CCBD /* libPods-HackerNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0C852472244E4AAE5A82C3 /* libPods-HackerNews.a */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,8 @@
 		4DAB46F3193306C1006DC26D /* HNLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNLogging.m; sourceTree = "<group>"; };
 		4DAB46F5193308A8006DC26D /* HNLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNLoginViewController.h; sourceTree = "<group>"; };
 		4DAB46F6193308A8006DC26D /* HNLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNLoginViewController.m; sourceTree = "<group>"; };
+		4DAB46F8193309CB006DC26D /* HNServerAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNServerAPIClient.h; sourceTree = "<group>"; };
+		4DAB46F9193309CB006DC26D /* HNServerAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNServerAPIClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +252,8 @@
 		4DAB46DF19330079006DC26D /* API */ = {
 			isa = PBXGroup;
 			children = (
+				4DAB46F8193309CB006DC26D /* HNServerAPIClient.h */,
+				4DAB46F9193309CB006DC26D /* HNServerAPIClient.m */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -410,6 +415,7 @@
 				4DAB46B01932FD6D006DC26D /* HNAppDelegate.m in Sources */,
 				4DAB46AC1932FD6D006DC26D /* main.m in Sources */,
 				4DAB46F4193306C1006DC26D /* HNLogging.m in Sources */,
+				4DAB46FA193309CB006DC26D /* HNServerAPIClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

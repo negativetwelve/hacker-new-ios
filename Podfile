@@ -4,7 +4,7 @@ inhibit_all_warnings!
 
 target 'HackerNews' do
   pod 'AFNetworking', '2.2.1'
-  pod 'AFNetworkingActivityLogger', '2.0.2'
+  pod 'AFNetworkActivityLogger', '2.0.2'
   pod 'HockeySDK', '3.5.5'
   pod 'Mantle', '1.4.1'
   pod 'FormatterKit', '1.4.2'

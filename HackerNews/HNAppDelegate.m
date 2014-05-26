@@ -15,6 +15,8 @@
 #import "HNRootViewController.h"
 #import "HNTopStoriesViewController.h"
 
+#import "HNConfig.h"
+
 
 @implementation HNAppDelegate
 
@@ -55,6 +57,12 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
   // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - Properties
+
+- (HNConfig *)config {
+  return [HNConfig defaultConfig];
 }
 
 @end

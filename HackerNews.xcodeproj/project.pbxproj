@@ -22,6 +22,7 @@
 		4DAB46E41933023E006DC26D /* HNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB46E31933023E006DC26D /* HNViewController.m */; };
 		4DAB46EA1933029A006DC26D /* HNTopStoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB46E91933029A006DC26D /* HNTopStoriesViewController.m */; };
 		4DAB46ED193303F0006DC26D /* HNRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB46EC193303F0006DC26D /* HNRootViewController.m */; };
+		4DAB46F0193304FA006DC26D /* HNConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB46EF193304FA006DC26D /* HNConfig.m */; };
 		DDD6F9F127D14A9784B5CCBD /* libPods-HackerNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0C852472244E4AAE5A82C3 /* libPods-HackerNews.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,9 @@
 		4DAB46E91933029A006DC26D /* HNTopStoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNTopStoriesViewController.m; sourceTree = "<group>"; };
 		4DAB46EB193303F0006DC26D /* HNRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNRootViewController.h; sourceTree = "<group>"; };
 		4DAB46EC193303F0006DC26D /* HNRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNRootViewController.m; sourceTree = "<group>"; };
+		4DAB46EE193304FA006DC26D /* HNConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNConfig.h; sourceTree = "<group>"; };
+		4DAB46EF193304FA006DC26D /* HNConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNConfig.m; sourceTree = "<group>"; };
+		4DAB46F1193305E6006DC26D /* HNBlockTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNBlockTypes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 			children = (
 				4DAB46AE1932FD6D006DC26D /* HNAppDelegate.h */,
 				4DAB46AF1932FD6D006DC26D /* HNAppDelegate.m */,
+				4DAB46EE193304FA006DC26D /* HNConfig.h */,
+				4DAB46EF193304FA006DC26D /* HNConfig.m */,
 				4DAB46D71933001D006DC26D /* App */,
 				4DAB46DF19330079006DC26D /* API */,
 				4DAB46E019330084006DC26D /* Networking */,
@@ -249,6 +255,7 @@
 		4DAB46E11933009A006DC26D /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				4DAB46F1193305E6006DC26D /* HNBlockTypes.h */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -386,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DAB46ED193303F0006DC26D /* HNRootViewController.m in Sources */,
+				4DAB46F0193304FA006DC26D /* HNConfig.m in Sources */,
 				4DAB46EA1933029A006DC26D /* HNTopStoriesViewController.m in Sources */,
 				4DAB46E41933023E006DC26D /* HNViewController.m in Sources */,
 				4DAB46B01932FD6D006DC26D /* HNAppDelegate.m in Sources */,

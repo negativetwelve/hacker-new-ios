@@ -6,9 +6,3 @@
 //  Copyright (c) 2014 Mark Miyashita. All rights reserved.
 //
 
-#ifndef HackerNews_HNBlockTypes_h
-#define HackerNews_HNBlockTypes_h
-
-
-
-#endif

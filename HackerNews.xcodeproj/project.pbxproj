@@ -216,10 +216,10 @@
 				4DAB46EC193303F0006DC26D /* HNRootViewController.m */,
 				4DAB46F5193308A8006DC26D /* HNLoginViewController.h */,
 				4DAB46F6193308A8006DC26D /* HNLoginViewController.m */,
-				4DAB46E81933029A006DC26D /* HNTopStoriesViewController.h */,
-				4DAB46E91933029A006DC26D /* HNTopStoriesViewController.m */,
 				4DAB46FB19330DE3006DC26D /* HNCoreTabBarController.h */,
 				4DAB46FC19330DE3006DC26D /* HNCoreTabBarController.m */,
+				4DAB46E81933029A006DC26D /* HNTopStoriesViewController.h */,
+				4DAB46E91933029A006DC26D /* HNTopStoriesViewController.m */,
 			);
 			name = "Secondary View Controllers";
 			sourceTree = "<group>";

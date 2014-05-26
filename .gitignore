@@ -1,0 +1,7 @@
+build/*
+xcuserdata/
+.idea/
+
+# Pods
+Pods
+*.xcworkspace

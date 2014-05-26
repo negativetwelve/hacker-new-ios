@@ -8,8 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+
+@class HNConfig;
+@class HNServerAPIClient;
+
+
 @interface HNAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong, readonly) HNConfig *config;
+@property (nonatomic, strong, readonly) HNServerAPIClient *APIClient;
+
++ (HNAppDelegate *)instance;
 
 @end

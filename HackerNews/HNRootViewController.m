@@ -10,8 +10,22 @@
 #import "HNTopStoriesViewController.h"
 #import "HNLoginViewController.h"
 
+#import "HNServerAPIClient.h"
+#import "HNAppDelegate.h"
+#import "HNBlockTypes.h"
+
+
+@interface HNRootViewController()
+
+@property (nonatomic, strong) HNServerAPIClient *APIClient;
+@property (nonatomic, strong) HNViewController *currentViewController;
+
+@end
+
 
 @implementation HNRootViewController
+
+#pragma mark - View
 
 - (void)viewDidLoad {
   [super viewDidLoad];
@@ -33,12 +47,16 @@
 - (void)showInitialViewController:(HNViewController *)initialViewController {
   [self addChildViewController:initialViewController];
   [self.view addSubview:initialViewController.view];
-  [initialViewController.view constrainToFillContainer];
   self.currentViewController = initialViewController;
 }
 
 #pragma mark - API
 
-- (
+- (HNServerAPIClient *)APIClient {
+  DO_ONCE(^{
+    _APIClient = [[HNAppDelegate instance] APIClient];
+  });
+  return _APIClient;
+}
 
 @end

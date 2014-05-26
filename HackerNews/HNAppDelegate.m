@@ -16,6 +16,7 @@
 #import "HNTopStoriesViewController.h"
 
 #import "HNConfig.h"
+#import "HNBlockTypes.h"
 
 
 @implementation HNAppDelegate

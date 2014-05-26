@@ -7,7 +7,27 @@
 //
 
 #import "HNRootViewController.h"
+#import "HNTopStoriesViewController.h"
+#import "HNLoginViewController.h"
+
 
 @implementation HNRootViewController
+
+- (void)viewDidLoad {
+  [super viewDidLoad];
+  
+  BOOL loggedIn = false;
+  HNViewController *launchingViewController = (loggedIn) ? [self newInitialViewController] : [self newLoginViewController];
+  
+  [self showInitialViewController:launchingViewController];
+}
+
+- (HNViewController *)newInitialViewController {
+  return [[HNTopStoriesViewController alloc] init];
+}
+
+- (HNViewController *)newLoginViewController {
+  return [[HNLoginViewController alloc] init];
+}
 
 @end

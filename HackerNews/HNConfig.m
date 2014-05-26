@@ -8,6 +8,9 @@
 
 #import "HNConfig.h"
 
+#import "HNBlockTypes.h"
+
+
 @implementation HNConfig
 
 + (instancetype)defaultConfig {

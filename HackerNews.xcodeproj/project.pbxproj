@@ -27,6 +27,7 @@
 		4DAB46F7193308A8006DC26D /* HNLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB46F6193308A8006DC26D /* HNLoginViewController.m */; };
 		4DAB46FA193309CB006DC26D /* HNServerAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB46F9193309CB006DC26D /* HNServerAPIClient.m */; };
 		4DAB46FD19330DE3006DC26D /* HNCoreTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB46FC19330DE3006DC26D /* HNCoreTabBarController.m */; };
+		4DAB470019330E65006DC26D /* HNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB46FF19330E65006DC26D /* HNNavigationController.m */; };
 		DDD6F9F127D14A9784B5CCBD /* libPods-HackerNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0C852472244E4AAE5A82C3 /* libPods-HackerNews.a */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,8 @@
 		4DAB46F9193309CB006DC26D /* HNServerAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNServerAPIClient.m; sourceTree = "<group>"; };
 		4DAB46FB19330DE3006DC26D /* HNCoreTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNCoreTabBarController.h; sourceTree = "<group>"; };
 		4DAB46FC19330DE3006DC26D /* HNCoreTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNCoreTabBarController.m; sourceTree = "<group>"; };
+		4DAB46FE19330E65006DC26D /* HNNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNNavigationController.h; sourceTree = "<group>"; };
+		4DAB46FF19330E65006DC26D /* HNNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +203,8 @@
 			children = (
 				4DAB46E21933023E006DC26D /* HNViewController.h */,
 				4DAB46E31933023E006DC26D /* HNViewController.m */,
+				4DAB46FE19330E65006DC26D /* HNNavigationController.h */,
+				4DAB46FF19330E65006DC26D /* HNNavigationController.m */,
 			);
 			name = "Core View Controllers";
 			sourceTree = "<group>";
@@ -412,6 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DAB470019330E65006DC26D /* HNNavigationController.m in Sources */,
 				4DAB46F7193308A8006DC26D /* HNLoginViewController.m in Sources */,
 				4DAB46ED193303F0006DC26D /* HNRootViewController.m in Sources */,
 				4DAB46FD19330DE3006DC26D /* HNCoreTabBarController.m in Sources */,

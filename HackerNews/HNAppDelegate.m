@@ -8,10 +8,30 @@
 
 #import "HNAppDelegate.h"
 
+#import <HockeySDK/HockeySDK.h>
+#import <AFNetworking/AFNetworkActivityIndicatorManager.h>
+#import <AFNetworkActivityLogger/AFNetworkActivityLogger.h>
+
+#import "HNRootViewController.h"
+#import "HNTopStoriesViewController.h"
+
+
 @implementation HNAppDelegate
 
++ (HNAppDelegate *)instance {
+  return (HNAppDelegate *)[[UIApplication sharedApplication] delegate];
+}
+
+#pragma mark - UIApplicationDelegate
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  // Override point for customization after application launch.
+  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+  self.window.backgroundColor = [UIColor whiteColor];
+  self.window.rootViewController = [[HNRootViewController alloc] init];
+  
+  [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
+  [self.window makeKeyAndVisible];
+  
   return YES;
 }
 							

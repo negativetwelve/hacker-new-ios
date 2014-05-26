@@ -7,12 +7,24 @@
 //
 
 #import "HNCoreTabBarController.h"
+#import "HNCoreNavigationItemController.h"
 
-@interface HNCoreTabBarController ()
+#import "HNViewController.h"
+
+
+@interface HNCoreTabBarController () <UITabBarControllerDelegate>
+
+@property (nonatomic) HNCoreNavigationItemController *navItemController;
 
 @end
 
+
 @implementation HNCoreTabBarController
+
++ (HNCoreTabBarController *)activeCoreTabBarController {
+  HNViewController *rootViewController = [[UIApplication sharedApplication] keyWindow].rootViewController;
+  HNViewController *tabBarController = [rootViewController.childViewController
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
   self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

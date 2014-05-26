@@ -12,6 +12,9 @@
 #import <AFNetworking/AFNetworkActivityIndicatorManager.h>
 #import <AFNetworkActivityLogger/AFNetworkActivityLogger.h>
 
+#import "HNViewController.h"
+#import "HNNavigationController.h"
+
 #import "HNRootViewController.h"
 #import "HNTopStoriesViewController.h"
 

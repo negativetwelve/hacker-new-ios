@@ -28,6 +28,7 @@
 		4DAB46FA193309CB006DC26D /* HNServerAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB46F9193309CB006DC26D /* HNServerAPIClient.m */; };
 		4DAB46FD19330DE3006DC26D /* HNCoreTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB46FC19330DE3006DC26D /* HNCoreTabBarController.m */; };
 		4DAB470019330E65006DC26D /* HNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB46FF19330E65006DC26D /* HNNavigationController.m */; };
+		4DAB470319330EFE006DC26D /* HNCoreNavigationItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB470219330EFE006DC26D /* HNCoreNavigationItemController.m */; };
 		DDD6F9F127D14A9784B5CCBD /* libPods-HackerNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0C852472244E4AAE5A82C3 /* libPods-HackerNews.a */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,8 @@
 		4DAB46FC19330DE3006DC26D /* HNCoreTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNCoreTabBarController.m; sourceTree = "<group>"; };
 		4DAB46FE19330E65006DC26D /* HNNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNNavigationController.h; sourceTree = "<group>"; };
 		4DAB46FF19330E65006DC26D /* HNNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNNavigationController.m; sourceTree = "<group>"; };
+		4DAB470119330EFE006DC26D /* HNCoreNavigationItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNCoreNavigationItemController.h; sourceTree = "<group>"; };
+		4DAB470219330EFE006DC26D /* HNCoreNavigationItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNCoreNavigationItemController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +221,8 @@
 				4DAB46F6193308A8006DC26D /* HNLoginViewController.m */,
 				4DAB46FB19330DE3006DC26D /* HNCoreTabBarController.h */,
 				4DAB46FC19330DE3006DC26D /* HNCoreTabBarController.m */,
+				4DAB470119330EFE006DC26D /* HNCoreNavigationItemController.h */,
+				4DAB470219330EFE006DC26D /* HNCoreNavigationItemController.m */,
 				4DAB46E81933029A006DC26D /* HNTopStoriesViewController.h */,
 				4DAB46E91933029A006DC26D /* HNTopStoriesViewController.m */,
 			);
@@ -423,6 +428,7 @@
 				4DAB46FD19330DE3006DC26D /* HNCoreTabBarController.m in Sources */,
 				4DAB46F0193304FA006DC26D /* HNConfig.m in Sources */,
 				4DAB46EA1933029A006DC26D /* HNTopStoriesViewController.m in Sources */,
+				4DAB470319330EFE006DC26D /* HNCoreNavigationItemController.m in Sources */,
 				4DAB46E41933023E006DC26D /* HNViewController.m in Sources */,
 				4DAB46B01932FD6D006DC26D /* HNAppDelegate.m in Sources */,
 				4DAB46AC1932FD6D006DC26D /* main.m in Sources */,

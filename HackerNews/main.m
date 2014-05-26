@@ -10,9 +10,8 @@
 
 #import "HNAppDelegate.h"
 
-int main(int argc, char * argv[])
-{
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([HNAppDelegate class]));
-    }
+int main(int argc, char * argv[]) {
+  @autoreleasepool {
+    return UIApplicationMain(argc, argv, nil, NSStringFromClass([HNAppDelegate class]));
+  }
 }

@@ -19,6 +19,7 @@
 		4DAB46C41932FD6E006DC26D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAB46A31932FD6D006DC26D /* UIKit.framework */; };
 		4DAB46CC1932FD6E006DC26D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DAB46CA1932FD6E006DC26D /* InfoPlist.strings */; };
 		4DAB46CE1932FD6E006DC26D /* HackerNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB46CD1932FD6E006DC26D /* HackerNewsTests.m */; };
+		4DAB46E41933023E006DC26D /* HNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB46E31933023E006DC26D /* HNViewController.m */; };
 		DDD6F9F127D14A9784B5CCBD /* libPods-HackerNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0C852472244E4AAE5A82C3 /* libPods-HackerNews.a */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,8 @@
 		4DAB46C91932FD6E006DC26D /* HackerNewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackerNewsTests-Info.plist"; sourceTree = "<group>"; };
 		4DAB46CB1932FD6E006DC26D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4DAB46CD1932FD6E006DC26D /* HackerNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerNewsTests.m; sourceTree = "<group>"; };
+		4DAB46E21933023E006DC26D /* HNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNViewController.h; sourceTree = "<group>"; };
+		4DAB46E31933023E006DC26D /* HNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +174,8 @@
 		4DAB46D819330025006DC26D /* Core View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4DAB46E21933023E006DC26D /* HNViewController.h */,
+				4DAB46E31933023E006DC26D /* HNViewController.m */,
 			);
 			name = "Core View Controllers";
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DAB46E41933023E006DC26D /* HNViewController.m in Sources */,
 				4DAB46B01932FD6D006DC26D /* HNAppDelegate.m in Sources */,
 				4DAB46AC1932FD6D006DC26D /* main.m in Sources */,
 			);

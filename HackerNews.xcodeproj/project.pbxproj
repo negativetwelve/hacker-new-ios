@@ -30,6 +30,7 @@
 		4DAB470019330E65006DC26D /* HNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB46FF19330E65006DC26D /* HNNavigationController.m */; };
 		4DAB470319330EFE006DC26D /* HNCoreNavigationItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB470219330EFE006DC26D /* HNCoreNavigationItemController.m */; };
 		4DAB470619346284006DC26D /* HNRecentStoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB470519346284006DC26D /* HNRecentStoriesViewController.m */; };
+		4DAB470919358CE2006DC26D /* HNCommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB470819358CE2006DC26D /* HNCommentsViewController.m */; };
 		DDD6F9F127D14A9784B5CCBD /* libPods-HackerNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0C852472244E4AAE5A82C3 /* libPods-HackerNews.a */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +86,8 @@
 		4DAB470219330EFE006DC26D /* HNCoreNavigationItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNCoreNavigationItemController.m; sourceTree = "<group>"; };
 		4DAB470419346284006DC26D /* HNRecentStoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNRecentStoriesViewController.h; sourceTree = "<group>"; };
 		4DAB470519346284006DC26D /* HNRecentStoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNRecentStoriesViewController.m; sourceTree = "<group>"; };
+		4DAB470719358CE2006DC26D /* HNCommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNCommentsViewController.h; sourceTree = "<group>"; };
+		4DAB470819358CE2006DC26D /* HNCommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNCommentsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +233,8 @@
 				4DAB46E91933029A006DC26D /* HNTopStoriesViewController.m */,
 				4DAB470419346284006DC26D /* HNRecentStoriesViewController.h */,
 				4DAB470519346284006DC26D /* HNRecentStoriesViewController.m */,
+				4DAB470719358CE2006DC26D /* HNCommentsViewController.h */,
+				4DAB470819358CE2006DC26D /* HNCommentsViewController.m */,
 			);
 			name = "Secondary View Controllers";
 			sourceTree = "<group>";
@@ -435,6 +440,7 @@
 				4DAB46F0193304FA006DC26D /* HNConfig.m in Sources */,
 				4DAB46EA1933029A006DC26D /* HNTopStoriesViewController.m in Sources */,
 				4DAB470319330EFE006DC26D /* HNCoreNavigationItemController.m in Sources */,
+				4DAB470919358CE2006DC26D /* HNCommentsViewController.m in Sources */,
 				4DAB46E41933023E006DC26D /* HNViewController.m in Sources */,
 				4DAB46B01932FD6D006DC26D /* HNAppDelegate.m in Sources */,
 				4DAB46AC1932FD6D006DC26D /* main.m in Sources */,

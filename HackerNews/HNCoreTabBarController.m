@@ -23,7 +23,7 @@
 
 + (HNCoreTabBarController *)activeCoreTabBarController {
   HNViewController *rootViewController = [[UIApplication sharedApplication] keyWindow].rootViewController;
-  HNViewController *tabBarController = [rootViewController.childViewController
+//  HNViewController *tabBarController = [rootViewController.childViewController
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -42,6 +42,10 @@
 - (void)didReceiveMemoryWarning {
   [super didReceiveMemoryWarning];
   // Dispose of any resources that can be recreated.
+}
+
+- (void)selectRecentTab {
+  NSLog(@"select recent tab called");
 }
 
 @end

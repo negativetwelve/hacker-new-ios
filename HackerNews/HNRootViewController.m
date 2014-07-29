@@ -9,6 +9,7 @@
 #import "HNRootViewController.h"
 #import "HNTopStoriesViewController.h"
 #import "HNLoginViewController.h"
+#import "HNCoreTabBarController.h"
 
 #import "HNServerAPIClient.h"
 #import "HNAppDelegate.h"
@@ -18,7 +19,7 @@
 @interface HNRootViewController()
 
 @property (nonatomic, strong) HNServerAPIClient *APIClient;
-@property (nonatomic, strong) HNViewController *currentViewController;
+@property (nonatomic, strong) UIViewController *currentViewController;
 
 @end
 
@@ -29,22 +30,21 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  
-  BOOL loggedIn = false;
-  HNViewController *launchingViewController = (loggedIn) ? [self newInitialViewController] : [self newLoginViewController];
+
+  UIViewController *launchingViewController = [self newInitialViewController];
   
   [self showInitialViewController:launchingViewController];
 }
 
-- (HNViewController *)newInitialViewController {
-  return [[HNTopStoriesViewController alloc] init];
+- (UIViewController *)newInitialViewController {
+  return [[HNCoreTabBarController alloc] init];
 }
 
 - (HNViewController *)newLoginViewController {
   return [[HNLoginViewController alloc] init];
 }
 
-- (void)showInitialViewController:(HNViewController *)initialViewController {
+- (void)showInitialViewController:(UIViewController *)initialViewController {
   [self addChildViewController:initialViewController];
   [self.view addSubview:initialViewController.view];
   self.currentViewController = initialViewController;

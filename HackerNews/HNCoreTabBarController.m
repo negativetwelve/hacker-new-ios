@@ -24,6 +24,7 @@
 + (HNCoreTabBarController *)activeCoreTabBarController {
   HNViewController *rootViewController = [[UIApplication sharedApplication] keyWindow].rootViewController;
 //  HNViewController *tabBarController = [rootViewController.childViewController
+  return nil;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {

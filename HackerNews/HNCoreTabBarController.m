@@ -74,6 +74,8 @@
     
     viewControllers;
   });
+  
+  _navItemController = [[HNCoreNavigationItemController alloc] initWithNavigationControllers:self.viewControllers delegate:self];
 }
 
 - (UINavigationController *)activeTabNavigationController {

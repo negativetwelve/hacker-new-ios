@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Mark Miyashita. All rights reserved.
 //
 
+#import "HNAppDelegate.h"
 #import "HNCoreTabBarController.h"
 #import "HNCoreNavigationItemController.h"
 
@@ -22,31 +23,27 @@
 @implementation HNCoreTabBarController
 
 + (HNCoreTabBarController *)activeCoreTabBarController {
-  HNViewController *rootViewController = [[UIApplication sharedApplication] keyWindow].rootViewController;
-//  HNViewController *tabBarController = [rootViewController.childViewController
-  return nil;
+  UIViewController *rootViewController = [HNAppDelegate instance].window.rootViewController;
+  UIViewController *tabBarController = rootViewController.childViewControllers[0];
+  return (HNCoreTabBarController *)tabBarController;
 }
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-  self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-  if (self) {
-    // Custom initialization
-  }
-  return self;
+- (instancetype)init {
+  return [super init];
 }
 
-- (void)viewDidLoad {
-  [super viewDidLoad];
-	// Do any additional setup after loading the view.
+- (UINavigationController *)activeTabNavigationController {
+  return [self.viewControllers objectAtIndex:self.selectedIndex];
 }
 
-- (void)didReceiveMemoryWarning {
-  [super didReceiveMemoryWarning];
-  // Dispose of any resources that can be recreated.
+- (void)showTopStories {
+  NSLog(@"show top stories");
+  [self setSelectedIndex:0];
 }
 
 - (void)selectRecentTab {
   NSLog(@"select recent tab called");
+  [self setSelectedIndex:1];
 }
 
 @end

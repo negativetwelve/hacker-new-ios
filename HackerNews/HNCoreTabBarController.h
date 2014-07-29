@@ -16,7 +16,6 @@
 - (instancetype)init;
 
 - (void)showTopStories;
-
 - (void)selectRecentTab;
 
 - (HNNavigationController *)activeTabNavigationController;

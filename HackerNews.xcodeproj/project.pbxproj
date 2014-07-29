@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D776D461987951200407E1D /* HNNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D776D451987951200407E1D /* HNNavigationBar.m */; };
 		4DAB46A01932FD6D006DC26D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAB469F1932FD6D006DC26D /* Foundation.framework */; };
 		4DAB46A21932FD6D006DC26D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAB46A11932FD6D006DC26D /* CoreGraphics.framework */; };
 		4DAB46A41932FD6D006DC26D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAB46A31932FD6D006DC26D /* UIKit.framework */; };
@@ -47,6 +48,8 @@
 /* Begin PBXFileReference section */
 		1A0C852472244E4AAE5A82C3 /* libPods-HackerNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackerNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABD058D5F1F48FEBFA3D4ED /* Pods-HackerNews.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerNews.xcconfig"; path = "Pods/Pods-HackerNews.xcconfig"; sourceTree = "<group>"; };
+		4D776D441987951200407E1D /* HNNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNNavigationBar.h; sourceTree = "<group>"; };
+		4D776D451987951200407E1D /* HNNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNNavigationBar.m; sourceTree = "<group>"; };
 		4DAB469C1932FD6D006DC26D /* HackerNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAB469F1932FD6D006DC26D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4DAB46A11932FD6D006DC26D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -242,6 +245,8 @@
 		4DAB46DA19330042006DC26D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4D776D441987951200407E1D /* HNNavigationBar.h */,
+				4D776D451987951200407E1D /* HNNavigationBar.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -435,6 +440,7 @@
 				4DAB470619346284006DC26D /* HNRecentStoriesViewController.m in Sources */,
 				4DAB470019330E65006DC26D /* HNNavigationController.m in Sources */,
 				4DAB46F7193308A8006DC26D /* HNLoginViewController.m in Sources */,
+				4D776D461987951200407E1D /* HNNavigationBar.m in Sources */,
 				4DAB46ED193303F0006DC26D /* HNRootViewController.m in Sources */,
 				4DAB46FD19330DE3006DC26D /* HNCoreTabBarController.m in Sources */,
 				4DAB46F0193304FA006DC26D /* HNConfig.m in Sources */,

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D29983519D90DEA0045316B /* HNTopStoriesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D29983419D90DEA0045316B /* HNTopStoriesView.m */; };
+		4D29983919D90E120045316B /* HNView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D29983819D90E120045316B /* HNView.m */; };
+		4D29983D19D912BE0045316B /* UIView+MMExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D29983C19D912BE0045316B /* UIView+MMExtensions.m */; };
 		4D776D461987951200407E1D /* HNNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D776D451987951200407E1D /* HNNavigationBar.m */; };
 		4DAB46A01932FD6D006DC26D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAB469F1932FD6D006DC26D /* Foundation.framework */; };
 		4DAB46A21932FD6D006DC26D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAB46A11932FD6D006DC26D /* CoreGraphics.framework */; };
@@ -48,6 +51,12 @@
 /* Begin PBXFileReference section */
 		1A0C852472244E4AAE5A82C3 /* libPods-HackerNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackerNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABD058D5F1F48FEBFA3D4ED /* Pods-HackerNews.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerNews.xcconfig"; path = "Pods/Pods-HackerNews.xcconfig"; sourceTree = "<group>"; };
+		4D29983319D90DEA0045316B /* HNTopStoriesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNTopStoriesView.h; sourceTree = "<group>"; };
+		4D29983419D90DEA0045316B /* HNTopStoriesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNTopStoriesView.m; sourceTree = "<group>"; };
+		4D29983719D90E120045316B /* HNView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNView.h; sourceTree = "<group>"; };
+		4D29983819D90E120045316B /* HNView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNView.m; sourceTree = "<group>"; };
+		4D29983B19D912BE0045316B /* UIView+MMExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MMExtensions.h"; sourceTree = "<group>"; };
+		4D29983C19D912BE0045316B /* UIView+MMExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MMExtensions.m"; sourceTree = "<group>"; };
 		4D776D441987951200407E1D /* HNNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNNavigationBar.h; sourceTree = "<group>"; };
 		4D776D451987951200407E1D /* HNNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNNavigationBar.m; sourceTree = "<group>"; };
 		4DAB469C1932FD6D006DC26D /* HackerNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +127,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D29983619D90DFA0045316B /* Core Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D29983719D90E120045316B /* HNView.h */,
+				4D29983819D90E120045316B /* HNView.m */,
+			);
+			name = "Core Views";
+			sourceTree = "<group>";
+		};
+		4D29983A19D912A20045316B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4D29983B19D912BE0045316B /* UIView+MMExtensions.h */,
+				4D29983C19D912BE0045316B /* UIView+MMExtensions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		4DAB46931932FD6D006DC26D = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +188,7 @@
 				4DAB46DF19330079006DC26D /* API */,
 				4DAB46E019330084006DC26D /* Networking */,
 				4DAB46E11933009A006DC26D /* Utilities */,
+				4D29983A19D912A20045316B /* Categories */,
 				4DAB46A61932FD6D006DC26D /* Supporting Files */,
 			);
 			path = HackerNews;
@@ -200,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				4DAB46D819330025006DC26D /* Core View Controllers */,
+				4D29983619D90DFA0045316B /* Core Views */,
 				4DAB46D91933002F006DC26D /* Secondary View Controllers */,
 				4DAB46DA19330042006DC26D /* Views */,
 				4DAB46DB1933004E006DC26D /* View Model */,
@@ -247,6 +276,8 @@
 			children = (
 				4D776D441987951200407E1D /* HNNavigationBar.h */,
 				4D776D451987951200407E1D /* HNNavigationBar.m */,
+				4D29983319D90DEA0045316B /* HNTopStoriesView.h */,
+				4D29983419D90DEA0045316B /* HNTopStoriesView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -442,11 +473,14 @@
 				4DAB46F7193308A8006DC26D /* HNLoginViewController.m in Sources */,
 				4D776D461987951200407E1D /* HNNavigationBar.m in Sources */,
 				4DAB46ED193303F0006DC26D /* HNRootViewController.m in Sources */,
+				4D29983919D90E120045316B /* HNView.m in Sources */,
 				4DAB46FD19330DE3006DC26D /* HNCoreTabBarController.m in Sources */,
 				4DAB46F0193304FA006DC26D /* HNConfig.m in Sources */,
 				4DAB46EA1933029A006DC26D /* HNTopStoriesViewController.m in Sources */,
 				4DAB470319330EFE006DC26D /* HNCoreNavigationItemController.m in Sources */,
 				4DAB470919358CE2006DC26D /* HNCommentsViewController.m in Sources */,
+				4D29983519D90DEA0045316B /* HNTopStoriesView.m in Sources */,
+				4D29983D19D912BE0045316B /* UIView+MMExtensions.m in Sources */,
 				4DAB46E41933023E006DC26D /* HNViewController.m in Sources */,
 				4DAB46B01932FD6D006DC26D /* HNAppDelegate.m in Sources */,
 				4DAB46AC1932FD6D006DC26D /* main.m in Sources */,

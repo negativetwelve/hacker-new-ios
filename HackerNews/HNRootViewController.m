@@ -19,7 +19,7 @@
 @interface HNRootViewController()
 
 @property (nonatomic, strong) HNServerAPIClient *APIClient;
-@property (nonatomic, strong) UIViewController *currentViewController;
+@property (nonatomic, strong) UIViewController  *currentViewController;
 
 @end
 
